@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Leawood Sensor Adapter LSX-1")
-		(date "2024-03-27")
-		(rev "1.0")
+		(date "2024-05-12")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Socket"
@@ -997,10 +997,6 @@
 		(uuid "1edf85ec-9ea5-4761-8403-b211122edde7")
 	)
 	(no_connect
-		(at 156.21 85.09)
-		(uuid "3e573d30-0b00-4d2d-9246-ddceb0639ad2")
-	)
-	(no_connect
 		(at 156.21 59.69)
 		(uuid "5d81b089-4d69-41ce-8246-29e1cee00354")
 	)
@@ -1039,6 +1035,16 @@
 			(type default)
 		)
 		(uuid "359a27e4-7630-4f68-9c04-3f9fd74d3fc7")
+	)
+	(wire
+		(pts
+			(xy 153.67 85.09) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e68add0-41bb-4ad8-aa3a-3c8dfcfcb7ab")
 	)
 	(wire
 		(pts
@@ -1139,6 +1145,16 @@
 			(type default)
 		)
 		(uuid "a7eeddbb-06a0-4ffe-84ac-761d2b2a4a88")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa56b018-4a02-4c62-8ac3-acf99690f8df")
 	)
 	(wire
 		(pts
@@ -10279,6 +10295,72 @@
 			(project "lsx-1"
 				(path "/d65bd730-f94a-4250-99f3-f4d7cbd238f8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205f66b6-0819-4467-aef8-a62fc6b7723f")
+		(property "Reference" "#PWR05"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 90.4931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5793cad4-4f9f-486c-aa8c-264e9b15d625")
+		)
+		(instances
+			(project "lsx-1"
+				(path "/d65bd730-f94a-4250-99f3-f4d7cbd238f8"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
