@@ -46,6 +46,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(grid_origin 50 50)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -133,6 +134,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -145,6 +147,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -157,6 +160,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -376,7 +380,7 @@
 		(uuid "4baed1dd-287e-49b2-b89a-5da4250b3b13")
 		(at 58.7 89.932667 90)
 		(property "Reference" "Lg1"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "57fc3164-990e-47fd-8318-50e6aa451faf")
@@ -388,7 +392,7 @@
 			)
 		)
 		(property "Value" "logo"
-			(at 0.75 0 270)
+			(at 0.75 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2ba3d308-db52-4b56-bf93-fa27cb90c422")
@@ -408,6 +412,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -420,6 +425,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -432,6 +438,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -577,6 +584,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -589,6 +597,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -601,6 +610,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -657,7 +667,7 @@
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "Lg2"
-			(at 0 -5.079999 270)
+			(at 0 -5.079999 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c69d98b2-f748-49af-8ffb-29fc813d632f")
@@ -669,7 +679,7 @@
 			)
 		)
 		(property "Value" "logo"
-			(at 0 3.81 270)
+			(at 0 3.81 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11bf2902-5952-4d92-a5c9-8f97aeb851a3")
@@ -689,6 +699,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -701,6 +712,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -713,6 +725,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1027,6 +1040,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1039,6 +1053,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1051,6 +1066,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1105,7 +1121,7 @@
 		(uuid "b00c98d3-3554-48d3-bfe7-2665facacd09")
 		(at 56.6 72.4 -90)
 		(property "Reference" "Lg4"
-			(at -5.715 0.964 270)
+			(at -5.715 0.964 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1118,7 +1134,7 @@
 			)
 		)
 		(property "Value" "logo"
-			(at -5.715 2.464 270)
+			(at -5.715 2.464 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1307,6 +1323,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1319,6 +1336,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1331,6 +1349,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2387,6 +2406,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2399,6 +2419,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2411,6 +2432,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2498,6 +2520,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2510,6 +2533,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2522,6 +2546,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3278,6 +3303,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3290,6 +3316,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3302,6 +3329,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3356,7 +3384,7 @@
 		(uuid "80a568f6-dbe8-463f-b721-e3c948a714e2")
 		(at 56.6 72.4 90)
 		(property "Reference" "Lg3"
-			(at 5.715 -0.964 270)
+			(at 5.715 -0.964 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3370,7 +3398,7 @@
 			)
 		)
 		(property "Value" "logo"
-			(at 5.715 -2.464 270)
+			(at 5.715 -2.464 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
